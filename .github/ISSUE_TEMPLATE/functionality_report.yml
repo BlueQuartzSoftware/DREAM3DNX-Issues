@@ -18,8 +18,8 @@ body:
     id: brief-description
     attributes:
       label: Description of the Feature, Filter, or Functionality?
-      description: Descrbe your feature in detail or even provide an implementation plan/existing open source library to reference!
-      value: Descrbe your feature in detail or even provide an implementation plan/existing open source library to reference!
+      description: Describe your feature in detail or even provide an implementation plan/existing open source library to reference!
+      value: What if DREAM3D had...
     validations:
       required: true
   - type: dropdown
@@ -35,7 +35,7 @@ body:
   - type: dropdown
     id: suggestion-type
     attributes:
-      label: What section did you forsee your suggestion falling in? [Further details may be required during triage process]
+      label: What section did you foresee your suggestion falling in? [Further details may be required during triage process]
       multiple: true
       options:
         - GUI client
@@ -44,7 +44,7 @@ body:
         - Workflow
         - Filter Library (or Search Bar)
         - Filter Parameters
-        - Infrastucture
+        - Infrastructure
         - External Compatibility
     validations:
       required: false
