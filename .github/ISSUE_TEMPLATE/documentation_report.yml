@@ -47,8 +47,8 @@ body:
         - Release Notes
         - Acknowledgements
         - Licensing
-      validations:
-        required: false
+    validations:
+      required: false
   - type: textarea
     id: further-detail
     attributes:

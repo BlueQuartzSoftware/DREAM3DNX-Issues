@@ -47,8 +47,8 @@ body:
         - Linux - Ubuntu 20.04 LTS
         - Linux - Ubuntu 22.04 LTS
         - other (Please enter in the extended description at the bottom)
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -65,7 +65,7 @@ body:
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output.
-      render: shell
+      render: "Text"
     validations:
       required: false
   - type: textarea
